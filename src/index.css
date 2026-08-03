@@ -1,0 +1,38 @@
+:root {
+  --text: #3d4451;
+  --text-muted: #6b7280;
+  --heading: #111827;
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --border: #e2e5ea;
+  --accent: #4f46e5;
+  --accent-soft: #eef2ff;
+  --danger: #dc2626;
+
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+h1,
+h2 {
+  color: var(--heading);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0 0 12px;
+}
